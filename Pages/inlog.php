@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require '../config.php';
 ?>
 
 <!DOCTYPE html>
@@ -8,8 +8,8 @@ require 'config.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styling/style.css">
-    <title>Make a account</title>
+    <link rel="stylesheet" href="../Styling/style.css">
+    <title>Log in</title>
 </head>
 
 <body>
@@ -37,14 +37,14 @@ require 'config.php';
 
 
     <div class="card">
-        <h1>Registreren</h1>
-        <form id="form" action="index.php" method="post">
+        <h1>In loggen</h1>
+        <form id="form" action="inlog.php" method="post">
 
             <input class="username" id="username" name="username" type="text" placeholder="              Username">
             <br>
             <input class="password" id="password" name="password" type="password" placeholder="              Password">
             <br>
-            <input class="email" name="email" id="email" type="email" placeholder="                  email">
+            <!-- <input class="email" name="email" id="email" type="email" placeholder="                  email"> -->
             <br>
             <input type="submit" name="submit" id="submit" class="button" value="Create account">
         </form>
@@ -56,25 +56,20 @@ require 'config.php';
 
         $username = $_POST['username'];
         $password = md5($_POST['password']);
-        $email = $_POST['email'];
+        // $email = $_POST['email'];
 
-        $query = "INSERT INTO profiles values (NULL, '$username', '$password', '$email')";
+        $query = "SELECT * FROM profiles WHERE Username = '$username' AND password = '$password'";
 
-        if (empty($username)) {
-            echo "<p>Vul eerst je username in</p>";
-        } elseif (empty($password)) {
-            echo "<p>Vul eerst je wachtwoord in</p>";
-        } elseif (empty($email)) {
-            echo "<p>Vul je email in</p>";
-        } else {
-            if (mysqli_query($mysqli, $query)) {
-                echo "<p><b>$username</b> is toegevoegd.</p>";
-                echo "<a href = 'config.php'>Test</a>";
-            } else {
-                echo "<p>Er is wat mis gegaan</p>";
-                echo "<a href = 'config.php'>test1</a>";
-              
-            }
+        $sqli = mysqli_query($mysqli, $query);
+
+        if(mysqli_num_rows($sqli) > 0) {
+
+            $loggedin = mysqli_fetch_array($sqli);
+
+            echo "<p>y</p>";
+        } else{
+            echo "<p>Kankerdingwerktniet</p>";
+            var_dump($query);
         }
     }
 
