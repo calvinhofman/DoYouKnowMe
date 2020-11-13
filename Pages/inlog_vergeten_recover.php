@@ -54,9 +54,10 @@ require '../config.php';
 
     if (isset($_POST['submit'])) {
         $email = $_POST['email'];
-        $password = $_POST['password'];
+        $password = md5($_POST['password']);
 
-        $query = "UPDATE password FROM profiles WHERE password = '$password' and email = '$email'";
+
+        $query = "UPDATE Password SET Password= '$password' WHERE email = '$email'";
 
         $sqli = mysqli_query($mysqli, $query);
 
@@ -68,7 +69,8 @@ require '../config.php';
             $_SESSION['Username'] = $username;
             header("Location:home.php");
         } else{
-           
+           var_dump($query);
+           var_dump($sqli);
            echo "Fout in het systeem.";
         }
     }
