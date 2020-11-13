@@ -73,7 +73,11 @@ require '../config.php';
         <div class="col-sm">
         </div>
         <div class="inlog-form   col-sm">
-                <h1>In loggen</h1>
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+
+            <h1>In loggen</h1>
                 <form id="form" action="inlog.php" method="post">
 
                     <input class="username" id="username" name="username" type="text" placeholder="              Username">
@@ -84,6 +88,11 @@ require '../config.php';
                     <br>
                     <input type="submit" name="submit" id="submit" class="button" value="Create account">
                 </form>
+
+            </div>
+            <div class="col-sm">
+
+            </div>
             </div>
 
         <div class="col-sm">

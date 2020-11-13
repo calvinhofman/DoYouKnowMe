@@ -49,7 +49,15 @@ table {
 /*    background-size: cover;*/
 /*    background-repeat: no-repeat;*/
 /*}*/
-@media (max-width: 600px) {
+@media (max-width: 303px) {
+    body {
+        background-color: black !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 303px) and  (max-width: 600px) {
     body {
         background-image: url('../Images/Phone-background-goede.png') !important;
         background-size: cover;
@@ -71,7 +79,7 @@ table {
             background-repeat: no-repeat;
         }
     }
-@media (min-width: 1394px) {
+@media (min-width: 1500px) {
     body {
         background-image: url('../Images/background.jpg') !important;
         background-size: cover;
@@ -173,4 +181,5 @@ li {
 /*Inlog form*/
 .inlog-form {
     background-color: #18072C !important;
+    align-content: center;
     }
