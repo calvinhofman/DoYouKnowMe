@@ -24,7 +24,7 @@ require '../config.php';
                 <a href="http://">Profile</a>
             </li>
             <li class="navItem">
-                <a href="http://">Friends</a>
+                <a href="http://">Wooooooorst</a>
             </li>
             <!-- <li class="navItem">
                 <a href="http://">log in</a>
