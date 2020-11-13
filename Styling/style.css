@@ -124,7 +124,7 @@ table {
     display: flex;
 }
 .navbar{
-    background-color: #18072C !important;
+    background-color: rgba(24, 7, 44, 0.81) !important;
     color: gray;
 }
 
