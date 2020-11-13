@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605255200663</updated>
       <workItem from="1605255202072" duration="232000" />
-      <workItem from="1605257451793" duration="113000" />
+      <workItem from="1605257451793" duration="1074000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605257484344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="friends">
+      <created>1605257596365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605257596365</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,13 +112,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dikke calbo" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="friends" />
+    <option name="LAST_COMMIT_MESSAGE" value="friends" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="149" key="CommitChangelistDialog2" timestamp="1605257483185">
+    <state x="576" y="149" key="CommitChangelistDialog2" timestamp="1605257595243">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605255954891" />
-    <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605257483185" />
+    <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605257595243" />
   </component>
 </project>
