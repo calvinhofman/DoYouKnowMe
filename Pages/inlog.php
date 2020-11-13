@@ -107,6 +107,8 @@ require '../config.php';
 
             $loggedin = mysqli_fetch_array($sqli);
 
+
+            $_SESSION['Username'] = $username;
             header("Location:home.php");
         } else{
            
