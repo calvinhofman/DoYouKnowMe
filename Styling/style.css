@@ -51,7 +51,7 @@ table {
 /*}*/
 @media (max-width: 600px) {
     body {
-    background-color: cyan !important;
+        background-image: url('../Images/Phone-background-goede.png') !important;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -79,16 +79,22 @@ table {
     }
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    background-color: #1E1D1D;
-    opacity: 81%;
-    width: 40rem;
-    height: 20rem;
-    margin-left: 25%;
-    margin-top: 7%;
+.container{
+    margin-top: 10%;
 }
+
+
+
+/*.card{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    background-color: #1E1D1D;*/
+/*    opacity: 81%;*/
+/*    width: 40rem;*/
+/*    height: 20rem;*/
+/*    margin-left: 25%;*/
+/*    margin-top: 7%;*/
+/*}*/
 
 .username{
     margin-top: 8em;
@@ -166,5 +172,5 @@ li {
 
 /*Inlog form*/
 .inlog-form {
-    background-color: #1E1D1D;
-}
+    background-color: #18072C !important;
+    }
