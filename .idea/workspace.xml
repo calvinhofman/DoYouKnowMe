@@ -20,6 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap-4.5.3-dist/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605255200663</updated>
       <workItem from="1605255202072" duration="232000" />
-      <workItem from="1605257451793" duration="1074000" />
+      <workItem from="1605257451793" duration="1320000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -90,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605257596365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bootstrap">
+      <created>1605260182140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605260182140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +140,14 @@
     <MESSAGE value="Dikke calbo" />
     <MESSAGE value="test" />
     <MESSAGE value="friends" />
-    <option name="LAST_COMMIT_MESSAGE" value="friends" />
+    <MESSAGE value="bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="576" y="149" key="CommitChangelistDialog2" timestamp="1605257595243">
+    <state x="576" y="149" key="CommitChangelistDialog2" timestamp="1605260181179">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605255954891" />
-    <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605257595243" />
+    <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605260181179" />
   </component>
 </project>
