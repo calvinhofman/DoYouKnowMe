@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Images/._Favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Favicon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
       <workItem from="1605261102059" duration="4115000" />
       <workItem from="1605290040247" duration="2869000" />
       <workItem from="1605294295980" duration="3933000" />
+      <workItem from="1605303556918" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
