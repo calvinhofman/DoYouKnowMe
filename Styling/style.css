@@ -89,7 +89,7 @@ body{
     padding: 1.2rem 1.5rem;
     z-index: 5;
     width: 95.96%;
-    background-color: #18072C;
+    background-color: #18072C !important;
     opacity: 81%;
   border: solid rgba(158, 157, 157, 0.541);
 }
