@@ -80,7 +80,7 @@ body{
     display: flex;
 }
 .navbar{
-    background-color: #18072C ;
+    background-color: #18072C !important;
 
 }
 
