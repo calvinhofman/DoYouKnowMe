@@ -66,10 +66,10 @@ require '../config.php';
 
             $loggedin = mysqli_fetch_array($sqli);
 
-            echo "<p>y</p>";
+            header("Location:home.php");
         } else{
-            echo "<p>Kankerdingwerktniet</p>";
-            var_dump($query);
+           
+           echo "Wachtwoord of username kloppen niet";
         }
     }
 
