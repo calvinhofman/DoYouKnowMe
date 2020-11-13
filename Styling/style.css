@@ -105,8 +105,8 @@ table {
 /*}*/
 
 .username{
-    margin-top: 8em;
-    margin-right: 6em;
+    /*margin-top: 8em;*/
+    /*margin-right: 6em;*/
 }
 
 .password{
@@ -128,8 +128,12 @@ table {
     color: gray;
 }
 
-.navbar a:hover{
-    color: white;
+
+.nav-link {
+    color: white !important;
+}
+.nav-link a:hover{
+    color: cyan;
 }
 
 
@@ -180,6 +184,10 @@ li {
 
 /*Inlog form*/
 .inlog-form {
-    background-color: #18072C !important;
-    align-content: center;
+    background-color: rgba(24, 7, 44, 0.81) !important;
+    /*opacity: 80%;*/
     }
+
+.form-col{
+    margin: auto;
+}
