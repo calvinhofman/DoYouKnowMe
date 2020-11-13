@@ -1,7 +1,10 @@
+<!--Connect met config.php-->
+
 <?php
 require '../config.php';
 ?>
 
+<!--Begin html-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,9 +12,9 @@ require '../config.php';
 <!--    Favicon-->
     <link rel="icon" href="../Images/Favicon.jpg" sizes="16x16" type="image/jpg">
 
-
+<!--CSS link-->
     <link rel="stylesheet" href="../Styling/style.css">
-
+<!--Meta links-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -45,29 +48,29 @@ require '../config.php';
             <li class="nav-item">
                 <a class="nav-link style='color:white'" href="#">Friends</a>
             </li>
-
-
         </ul>
-<!--        <form class="form-inline my-2 my-lg-0">-->
-<!--            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-<!--            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-<!--        </form>-->
     </div>
 </nav>
+<!--Einde Navbar-->
 
 
 
 
-
-
+<!--Begin Container-->
 <div class="container">
     <div class="row">
+<!--        Classes om het midden uit te pakken-->
         <div class="col-sm">
         </div>
+        <!--        Classes om het midden uit te pakken-->
+<!--Begin class dat in het midden staat-->
         <div class="inlog-form   col-sm">
             <div class="col-sm form-col">
 
+<!--H1 voor inloggen tekst-->
             <h1 class="text-center" style="color: white">Inloggen</h1>
+
+<!--                Begin Form-->
                 <form class="justify-content-center" id="form" action="inlog.php" method="post">
 
 
@@ -100,6 +103,8 @@ require '../config.php';
                     </div>
 
                     <div class="form-group" style="color: white">
+
+<!--                        Check php inlog-->
                         <?php
 
                         if (isset($_POST['submit'])) {
@@ -152,17 +157,17 @@ require '../config.php';
 
                     </div>
                 </form>
-
+<!--Einde formulier-->
             </div>
             </div>
-
+<!--Div om midden te pakken-->
         <div class="col-sm">
         </div>
     </div>
 </div>
 
 
-
+<!--Scripts voor Bootstrap-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
