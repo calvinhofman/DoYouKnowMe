@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,26 +11,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kEA6NLzQUxpBo6VYiNOcRuiznu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Martijn Kalkman\Desktop\school enzo\github\DoYouKnowMe" />
@@ -57,6 +47,9 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+=======
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+>>>>>>> main
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="" />
@@ -64,8 +57,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605255200663</updated>
+<<<<<<< HEAD
       <workItem from="1605255202072" duration="232000" />
       <workItem from="1605257451793" duration="1603000" />
+=======
+      <workItem from="1605255202072" duration="680000" />
+      <workItem from="1605261102059" duration="2635000" />
+>>>>>>> main
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -75,33 +73,48 @@
       <updated>1605255257829</updated>
     </task>
     <task id="LOCAL-00002" summary="Dikke calbo">
-      <created>1605255957592</created>
+      <created>1605261156667</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1605255957592</updated>
+      <updated>1605261156667</updated>
     </task>
-    <task id="LOCAL-00003" summary="test">
-      <created>1605257484344</created>
+    <task id="LOCAL-00003" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261237040</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1605257484344</updated>
+      <updated>1605261237040</updated>
     </task>
-    <task id="LOCAL-00004" summary="friends">
-      <created>1605257596365</created>
+    <task id="LOCAL-00004" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261281919</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1605257596365</updated>
+      <updated>1605261281919</updated>
     </task>
-    <task id="LOCAL-00005" summary="bootstrap">
-      <created>1605260182140</created>
+    <task id="LOCAL-00005" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261344298</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1605260182140</updated>
+      <updated>1605261344298</updated>
     </task>
+    <task id="LOCAL-00006" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261474679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261474679</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261509396</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261509396</updated>
+    </task>
+<<<<<<< HEAD
     <task id="LOCAL-00006" summary="bootstrap 4.5">
       <created>1605260470404</created>
       <option name="number" value="00006" />
@@ -110,26 +123,81 @@
       <updated>1605260470404</updated>
     </task>
     <option name="localTasksCounter" value="7" />
+=======
+    <task id="LOCAL-00008" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261644230</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261644230</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261732196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261732196</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261808660</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261808660</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261831433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261831433</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261944509</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261944509</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261976489</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261976489</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Login.php veranderen naar Bootstrap">
+      <created>1605263067492</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605263067492</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Login.php veranderen naar Bootstrap">
+      <created>1605263556195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605263556195</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Login.php veranderen naar Bootstrap">
+      <created>1605263858626</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605263858627</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+>>>>>>> main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Dikke calbo" />
+<<<<<<< HEAD
     <MESSAGE value="test" />
     <MESSAGE value="friends" />
     <MESSAGE value="bootstrap" />
@@ -142,5 +210,19 @@
     </state>
     <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605255954891" />
     <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605260684282" />
+=======
+    <MESSAGE value="Login.php veranderen naar Bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login.php veranderen naar Bootstrap" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="205" key="#Deployment" timestamp="1605261415909">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605261415909" />
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605263856777">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605263856777" />
+>>>>>>> main
   </component>
 </project>
