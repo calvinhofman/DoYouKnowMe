@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/._Favicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Favicon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <workItem from="1605261102059" duration="4115000" />
       <workItem from="1605290040247" duration="2869000" />
       <workItem from="1605294295980" duration="3933000" />
-      <workItem from="1605303556918" duration="277000" />
+      <workItem from="1605303556918" duration="381000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605296874281</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Login.php veranderen naar Bootstrap">
+      <created>1605304193269</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304193269</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,11 +215,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605265746447" />
-    <state x="324" y="50" key="CommitChangelistDialog2" timestamp="1605296870717">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605304191333">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
-    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605265192150" />
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605304191333" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605301529655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -6,6 +6,10 @@ require '../config.php';
 <html lang="en">
 
 <head>
+<!--    Favicon-->
+    <link rel="icon" href="../Images/Favicon.jpg" sizes="16x16" type="image/jpg">
+
+
     <link rel="stylesheet" href="../Styling/style.css">
 
     <meta charset="utf-8">
