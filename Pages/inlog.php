@@ -68,22 +68,30 @@ require '../config.php';
     </div>
 </nav>
 
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+        </div>
+        <div class="inlog-form   col-sm">
+                <h1>In loggen</h1>
+                <form id="form" action="inlog.php" method="post">
 
+                    <input class="username" id="username" name="username" type="text" placeholder="              Username">
+                    <br>
+                    <input class="password" id="password" name="password" type="password" placeholder="              Password">
+                    <br>
+                    <!-- <input class="email" name="email" id="email" type="email" placeholder="                  email"> -->
+                    <br>
+                    <input type="submit" name="submit" id="submit" class="button" value="Create account">
+                </form>
+            </div>
 
-    <div class="card">
-        <h1>In loggen</h1>
-        <form id="form" action="inlog.php" method="post">
-
-            <input class="username" id="username" name="username" type="text" placeholder="              Username">
-            <br>
-            <input class="password" id="password" name="password" type="password" placeholder="              Password">
-            <br>
-            <!-- <input class="email" name="email" id="email" type="email" placeholder="                  email"> -->
-            <br>
-            <input type="submit" name="submit" id="submit" class="button" value="Create account">
-        </form>
-
+        <div class="col-sm">
+        </div>
     </div>
+</div>
+
+
     <?php
 
     if (isset($_POST['submit'])) {

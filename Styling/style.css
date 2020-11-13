@@ -44,10 +44,30 @@ table {
 	border-spacing: 0;
 }
 
-body{
-    background-image: url('../Images/background.jpg');
-    background-size: cover;
+/*body{*/
+/*    background-image: url('../Images/background.jpg');*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+@media (min-width: 400px) {
+    body {
+    }
 }
+
+@media (min-width: 500px) {
+    body {
+        background-image: url('../Images/Phone-background.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;    }
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url('../Images/background.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
 
 .card{
     display: flex;
@@ -130,4 +150,11 @@ li {
     list-style-type: none;
     text-decoration: none;
 }
-  
+
+
+
+
+/*Inlog form*/
+.inlog-form {
+    background-color: #1E1D1D;
+}
