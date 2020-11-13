@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="Login.php veranderen naar Bootstrap">
+    <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling/style.css" afterDir="false" />
@@ -43,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605255200663</updated>
       <workItem from="1605255202072" duration="680000" />
-      <workItem from="1605261102059" duration="524000" />
+      <workItem from="1605261102059" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -94,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605261509396</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261644230</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261644230</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Login.php veranderen naar Bootstrap">
+      <created>1605261732196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261732196</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,9 +124,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605261415909" />
-    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605261577822">
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605261730016">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605261577822" />
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605261730016" />
   </component>
 </project>

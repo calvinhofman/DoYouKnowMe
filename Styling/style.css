@@ -82,7 +82,10 @@ body{
 .navbar{
     background-color: #18072C !important;
     color: gray;
+}
 
+.navbar a:hover{
+    color: white;
 }
 
 
