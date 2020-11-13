@@ -79,6 +79,12 @@ body{
     justify-content: center;
     display: flex;
 }
+.navbar{
+    background-color: #18072C ;
+
+}
+
+
 
 .navBar-nav {
     display: flex;
@@ -89,7 +95,7 @@ body{
     padding: 1.2rem 1.5rem;
     z-index: 5;
     width: 95.96%;
-    background-color: #18072C !important;
+    background-color: #18072C ;
     opacity: 81%;
   border: solid rgba(158, 157, 157, 0.541);
 }
