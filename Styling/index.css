@@ -1,0 +1,6 @@
+.main-picture{
+    background-image: url("Images/Ken-je-mij.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
