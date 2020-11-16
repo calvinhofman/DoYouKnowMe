@@ -90,7 +90,7 @@ require '../config.php';
                     </div>
                     <div class="form-group">
                         <label class="sr-only">Account maken</label>
-                       <a href="../config.php"><button class="form-control btn btn-primary button"  id="">Account maken</button></a>
+                       <a href="home.php"><button class="form-control btn btn-primary button"  id="">Account maken</button></a>
                     </div>
                     <div class="form-group">
                         <label class="sr-only">Password vergeten?</label>
