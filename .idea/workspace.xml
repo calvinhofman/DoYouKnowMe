@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,15 @@
       <workItem from="1605257451793" duration="1603000" />
 =======
       <workItem from="1605255202072" duration="680000" />
+<<<<<<< HEAD
       <workItem from="1605261102059" duration="2635000" />
+>>>>>>> main
+=======
+      <workItem from="1605261102059" duration="4115000" />
+      <workItem from="1605290040247" duration="2869000" />
+      <workItem from="1605294295980" duration="3933000" />
+      <workItem from="1605303556918" duration="1671000" />
+      <workItem from="1605515128343" duration="261000" />
 >>>>>>> main
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
@@ -187,7 +195,74 @@
       <option name="project" value="LOCAL" />
       <updated>1605263858627</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="17" />
+>>>>>>> main
+=======
+    <task id="LOCAL-00017" summary="Login.php veranderen naar Bootstrap">
+      <created>1605264015076</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605264015076</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Login.php veranderen naar Bootstrap">
+      <created>1605264420330</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1605264420330</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Login.php veranderen naar Bootstrap">
+      <created>1605265198023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605265198030</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Login.php veranderen naar Bootstrap">
+      <created>1605296874279</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605296874281</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Login.php veranderen naar Bootstrap">
+      <created>1605304193269</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304193269</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Login.php veranderen naar Bootstrap">
+      <created>1605304341384</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304341384</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Login.php veranderen naar Bootstrap">
+      <created>1605304644723</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304644724</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Login.php veranderen naar Bootstrap">
+      <created>1605304730959</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1605304730959</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Login.php veranderen naar Bootstrap">
+      <created>1605515208036</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605515208036</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
 >>>>>>> main
     <servers />
   </component>
@@ -215,14 +290,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="Login.php veranderen naar Bootstrap" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="205" key="#Deployment" timestamp="1605261415909">
+    <state x="560" y="205" key="#Deployment" timestamp="1605265746447">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605261415909" />
-    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605263856777">
+    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605265746447" />
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605515206112">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+<<<<<<< HEAD
     <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605263856777" />
+>>>>>>> main
+=======
+    <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605515206112" />
+    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1605515152258">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605515152258" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605301529655">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605301529655" />
 >>>>>>> main
   </component>
 </project>
