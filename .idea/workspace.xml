@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Images/Registreren.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kEA6NLzQUxpBo6VYiNOcRuiznu" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -50,7 +51,10 @@
       <workItem from="1605290040247" duration="2869000" />
       <workItem from="1605294295980" duration="3933000" />
       <workItem from="1605303556918" duration="1671000" />
-      <workItem from="1605515128343" duration="261000" />
+      <workItem from="1605515128343" duration="593000" />
+      <workItem from="1605528968456" duration="1702000" />
+      <workItem from="1605556804611" duration="83000" />
+      <workItem from="1605556892212" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -227,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605515208036</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Navbar.php aangemaakt zet het op elke pagina met een require">
+      <created>1605515419859</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605515419859</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,22 +248,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Dikke calbo" />
     <MESSAGE value="Login.php veranderen naar Bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login.php veranderen naar Bootstrap" />
+    <MESSAGE value="Navbar.php aangemaakt zet het op elke pagina met een require" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navbar.php aangemaakt zet het op elke pagina met een require" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="205" key="#Deployment" timestamp="1605265746447">
+    <state x="560" y="205" key="#Deployment" timestamp="1605529042490">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605265746447" />
-    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605515206112">
+    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605529042490" />
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605515418233">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
-    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605515206112" />
-    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1605515152258">
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605515418233" />
+    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1605556983481">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605515152258" />
+    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605556983481" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605301529655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
