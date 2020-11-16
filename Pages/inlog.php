@@ -30,31 +30,6 @@ require '../config.php';
 </head>
 
 <body>
-<!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-light" style="  background-color: #18072C;">
-    <a class="navbar-brand" style="color: white" href="#">Ken je mij?</a>
-    <button class="navbar-toggler" type="button" style="background-color: white" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" style="color: white;"  href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link style='color:white'" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link style='color:white'" href="#">Friends</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<!--Einde Navbar-->
-
-
-
 
 <!--Begin Container-->
 <div class="container">
