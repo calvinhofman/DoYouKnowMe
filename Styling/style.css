@@ -44,26 +44,53 @@ table {
 	border-spacing: 0;
 }
 
-body{
-    background-image: url('../Images/background.jpg');
-    background-size: cover;
+/*body{*/
+/*    background-image: url('../Images/background.jpg');*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+@media (max-width: 303px) {
+    body {
+        background-color: black !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    background-color: #1E1D1D;
-    opacity: 81%;
-    width: 40rem;
-    height: 20rem;
-    margin-left: 25%;
-    margin-top: 7%;
+@media (min-width: 303px) and  (max-width: 600px) {
+    body {
+        background-image: url('../Images/Phone-background-goede.png') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
-.username{
-    margin-top: 8em;
-    margin-right: 6em;
+@media (min-width: 600px) {
+    body {
+        background-image: url('../Images/Phone-background.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
+    @media (min-width: 601px) {
+        body {
+            background-image: url('../Images/Phone-background.jpg') !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+@media (min-width: 1500px) {
+    body {
+        background-image: url('../Images/background.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.container{
+    margin-top: 10%;
+}
+
 
 .password{
     margin-top: 1em;
@@ -79,6 +106,20 @@ body{
     justify-content: center;
     display: flex;
 }
+.navbar{
+    background-color: rgba(24, 7, 44, 0.81) !important;
+    color: gray;
+}
+
+
+.nav-link {
+    color: white !important;
+}
+.nav-link a:hover{
+    color: cyan;
+}
+
+
 
 .navBar-nav {
     display: flex;
@@ -89,7 +130,7 @@ body{
     padding: 1.2rem 1.5rem;
     z-index: 5;
     width: 95.96%;
-    background-color: #18072C;
+    background-color: #18072C ;
     opacity: 81%;
   border: solid rgba(158, 157, 157, 0.541);
 }
@@ -120,4 +161,16 @@ li {
     list-style-type: none;
     text-decoration: none;
 }
-  
+
+
+
+
+/*Inlog form*/
+.inlog-form {
+    background-color: rgba(24, 7, 44, 0.81) !important;
+    /*opacity: 80%;*/
+    }
+
+.form-col{
+    margin: auto;
+}
