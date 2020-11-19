@@ -92,23 +92,6 @@ table {
 }
 
 
-
-/*.card{*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    background-color: #1E1D1D;*/
-/*    opacity: 81%;*/
-/*    width: 40rem;*/
-/*    height: 20rem;*/
-/*    margin-left: 25%;*/
-/*    margin-top: 7%;*/
-/*}*/
-
-.username{
-    /*margin-top: 8em;*/
-    /*margin-right: 6em;*/
-}
-
 .password{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -124,7 +107,7 @@ table {
     display: flex;
 }
 .navbar{
-    background-color: #18072C !important;
+    background-color: rgba(24, 7, 44, 0.81) !important;
     color: gray;
 }
 
