@@ -1,7 +1,7 @@
 <?php
 require '../config.php';
 
-$query = "SELECT * FROM fabels_en_feiten"
+// $query = "SELECT * FROM fabels_en_feiten"
 ?>
 
 <!DOCTYPE html>
@@ -27,12 +27,19 @@ $query = "SELECT * FROM fabels_en_feiten"
             </li>
     </div>
 <div>
-    <script>
-    var x ="", i;
-    for (i=1; i<=6; i++){
-        <?php ?>
+<?php
+$result = mysqli_query($mysqli, "SELECT * FROM fabels_en_feiten");
+
+//maak loop voor activiteiten
+    while ($row = mysqli_fetch_array($result)){
+        echo "<div>";
+        echo $row['vraag'];
+        echo $row['datum'];
+        echo $row['stem_feit'];
+        echo $row['stem_fabel'];
+        echo "</div>";
     }
-    </script>
-</div>
+
+?>
 </body>
 </html>
