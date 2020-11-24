@@ -1,9 +1,36 @@
 <?php
-require 'config.php';
+session_start();
 
-$query = "SELECT * FROM friendlist";
+require '../config.php';
+
+$query = "SELECT * FROM profiles";
 
 $resultaat = mysqli_query($mysqli, $query);
+    $username = 0;
+
+
+
+$_SESSION['Gebruikersnaam'] = $username;
+
+echo $username;
+
+
+if (!isset($_SESSION['Gebruikersnaam'])) {
+    header("location:login.php");
+}
+
+else{
+
+    echo "<p>Welkom," . $_SESSION['Gebruikersnaam'] . "</p>";
+    echo "<p>ID," . $_SESSION['ID_Profile'] . "</p>";
+
+}
+
+//
+//var_dump($resultaat);
+//var_dump($username);
+
+
 
 
 if (mysqli_num_rows($resultaat) == 0){
@@ -19,15 +46,15 @@ else{ ?>
     <table border='1'>
 
     <tr>
-        <td>Friend id </td>
+        <td>Vrienden</td>
         <td>Naam</td>
     </tr>
 
         <?php while ($rij = mysqli_fetch_array($resultaat)){?>
 
         <tr>
-        <?php echo "<td>" . $rij['Friend_ID'] . "</td>";?>
-        <?php echo "<td>" . $rij['Naam'] . "</td>";?>
+        <?php echo "<td>" . $rij['Vrienden'] . "</td>";?>
+        <?php echo "<td>" . $rij['Gebruikersnaam'] . "</td>";?>
         <td><button onclick="accept()">accept</button> </td>
         <td><button onclick="decline()">decline</button> </td>
         </tr>
