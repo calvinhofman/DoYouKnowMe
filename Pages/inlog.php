@@ -117,7 +117,7 @@ require '../config.php';
 
 
                                 $_SESSION['Username'] = $username;
-                                header("Location:home.php");
+                                header("Location:VriendenŒ.php");
                             } else if($captcha_success->success==false){
 
                                 echo "<h4 class='text-center'>Vul de controle in!</h4>";
