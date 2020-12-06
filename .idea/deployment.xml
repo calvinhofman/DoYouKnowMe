@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="ftp85219">
     <serverData>
+      <paths name="Beroeps">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="ftp85219">
         <serverdata>
           <mappings>
