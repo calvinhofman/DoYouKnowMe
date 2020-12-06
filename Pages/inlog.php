@@ -81,6 +81,7 @@ require '../config.php';
 
 <!--                        Check php inlog-->
                         <?php
+                        session_start();
 
                         if (isset($_POST['submit'])) {
 
@@ -106,18 +107,27 @@ require '../config.php';
                             $context  = stream_context_create($options);
                             $verify = file_get_contents($url, false, $context);
                             $captcha_success=json_decode($verify);
+//                            EInde van Captcha
 
-                            $query = "SELECT * FROM profiles WHERE Username = '$username' AND password = '$password'";
+
+                            $query = "SELECT * FROM profiles WHERE Gebruikersnaam = '$username' AND password = '$password'";
 
                             $sqli = mysqli_query($mysqli, $query);
 
-                            if(mysqli_num_rows($sqli) > 0 && $captcha_success->success==true) {
-
-                                $loggedin = mysqli_fetch_array($sqli);
+//                            $loggedin = mysqli_fetch_array($sqli);
 
 
-                                $_SESSION['Username'] = $username;
-                                header("Location:home.php");
+                            if(mysqli_num_rows($sqli) > 0){
+//                            if(mysqli_num_rows($sqli) > 0 && $captcha_success->success==true)
+
+
+                                $user = mysqli_fetch_array($sqli);
+
+                                $_SESSION['Gebruikersnaam'] = $user['Gebruikersnaam'];
+                                $_SESSION['ID_Profile'] = $user['ID_Profile'];
+
+
+                                header("Location:http://192.168.64.2/DoYouKnowMe/Pages/Vrienden.php");
                             } else if($captcha_success->success==false){
 
                                 echo "<h4 class='text-center'>Vul de controle in!</h4>";

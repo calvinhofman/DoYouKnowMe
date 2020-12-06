@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/._Familie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/._Verloofde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/._Vrienden-kennis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Familie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Verloofde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/Vrienden-kennis.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styling/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Styling/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Styling/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Vrienden.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Vrienden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +78,13 @@
       <workItem from="1605515128343" duration="593000" />
       <workItem from="1605528968456" duration="1702000" />
       <workItem from="1605556804611" duration="83000" />
+<<<<<<< HEAD
       <workItem from="1605556892212" duration="3975000" />
+>>>>>>> main
+=======
+      <workItem from="1605556892212" duration="4041000" />
+      <workItem from="1605618653467" duration="309000" />
+      <workItem from="1606220580315" duration="3976000" />
 >>>>>>> main
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
@@ -302,7 +301,25 @@
       <option name="project" value="LOCAL" />
       <updated>1605557926657</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="29" />
+>>>>>>> main
+=======
+    <task id="LOCAL-00029" summary="Index.php aangepakt en gemaakt met Bootstrap moet er nog aan verder.">
+      <created>1605561335744</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605561335744</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Vrienden.php aangemaakt">
+      <created>1606220692937</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606220692938</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
 >>>>>>> main
     <servers />
   </component>
@@ -329,14 +346,16 @@
     <MESSAGE value="Login.php veranderen naar Bootstrap" />
     <MESSAGE value="Navbar.php aangemaakt zet het op elke pagina met een require" />
     <MESSAGE value="Index.php leeg gemaakt en veranderd naar registeren.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index.php leeg gemaakt en veranderd naar registeren.php" />
+    <MESSAGE value="Index.php aangepakt en gemaakt met Bootstrap moet er nog aan verder." />
+    <MESSAGE value="Vrienden.php aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vrienden.php aangemaakt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="205" key="#Deployment" timestamp="1605529042490">
+    <state x="560" y="205" key="#Deployment" timestamp="1605618823822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605529042490" />
-    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605557923360">
+    <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605618823822" />
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1606220687502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
 <<<<<<< HEAD
@@ -344,11 +363,11 @@
 >>>>>>> main
 =======
     <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
-    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605557923360" />
-    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1605556983481">
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1606220687502" />
+    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1606220603007">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605556983481" />
+    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606220603007" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605301529655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
