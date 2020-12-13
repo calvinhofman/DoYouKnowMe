@@ -38,7 +38,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Martijn Kalkman\Desktop\school enzo\github\DoYouKnowMe" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+=======
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+>>>>>>> main
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="" />
@@ -46,17 +58,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605255200663</updated>
+<<<<<<< HEAD
+      <workItem from="1605255202072" duration="232000" />
+      <workItem from="1605257451793" duration="1603000" />
+=======
       <workItem from="1605255202072" duration="680000" />
+<<<<<<< HEAD
+      <workItem from="1605261102059" duration="2635000" />
+>>>>>>> main
+=======
       <workItem from="1605261102059" duration="4115000" />
       <workItem from="1605290040247" duration="2869000" />
       <workItem from="1605294295980" duration="3933000" />
       <workItem from="1605303556918" duration="1671000" />
+<<<<<<< HEAD
+      <workItem from="1605515128343" duration="261000" />
+>>>>>>> main
+=======
       <workItem from="1605515128343" duration="593000" />
       <workItem from="1605528968456" duration="1702000" />
       <workItem from="1605556804611" duration="83000" />
+<<<<<<< HEAD
+      <workItem from="1605556892212" duration="3975000" />
+>>>>>>> main
+=======
       <workItem from="1605556892212" duration="4041000" />
       <workItem from="1605618653467" duration="309000" />
       <workItem from="1606220580315" duration="3976000" />
+>>>>>>> main
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -107,6 +136,16 @@
       <option name="project" value="LOCAL" />
       <updated>1605261509396</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00006" summary="bootstrap 4.5">
+      <created>1605260470404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605260470404</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+=======
     <task id="LOCAL-00008" summary="Login.php veranderen naar Bootstrap">
       <created>1605261644230</created>
       <option name="number" value="00008" />
@@ -170,6 +209,10 @@
       <option name="project" value="LOCAL" />
       <updated>1605263858627</updated>
     </task>
+<<<<<<< HEAD
+    <option name="localTasksCounter" value="17" />
+>>>>>>> main
+=======
     <task id="LOCAL-00017" summary="Login.php veranderen naar Bootstrap">
       <created>1605264015076</created>
       <option name="number" value="00017" />
@@ -233,6 +276,10 @@
       <option name="project" value="LOCAL" />
       <updated>1605515208036</updated>
     </task>
+<<<<<<< HEAD
+    <option name="localTasksCounter" value="26" />
+>>>>>>> main
+=======
     <task id="LOCAL-00026" summary="Navbar.php aangemaakt zet het op elke pagina met een require">
       <created>1605515419859</created>
       <option name="number" value="00026" />
@@ -254,6 +301,10 @@
       <option name="project" value="LOCAL" />
       <updated>1605557926657</updated>
     </task>
+<<<<<<< HEAD
+    <option name="localTasksCounter" value="29" />
+>>>>>>> main
+=======
     <task id="LOCAL-00029" summary="Index.php aangepakt en gemaakt met Bootstrap moet er nog aan verder.">
       <created>1605561335744</created>
       <option name="number" value="00029" />
@@ -269,6 +320,7 @@
       <updated>1606220692938</updated>
     </task>
     <option name="localTasksCounter" value="31" />
+>>>>>>> main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +329,20 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Dikke calbo" />
+<<<<<<< HEAD
+    <MESSAGE value="test" />
+    <MESSAGE value="friends" />
+    <MESSAGE value="bootstrap" />
+    <MESSAGE value="bootstrap 4.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap 4.5" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="576" y="149" key="CommitChangelistDialog2" timestamp="1605260684282">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605255954891" />
+    <state x="576" y="149" key="CommitChangelistDialog2/0.0.2560.1400/-1920.1080.1920.1040@0.0.2560.1400" timestamp="1605260684282" />
+=======
     <MESSAGE value="Login.php veranderen naar Bootstrap" />
     <MESSAGE value="Navbar.php aangemaakt zet het op elke pagina met een require" />
     <MESSAGE value="Index.php leeg gemaakt en veranderd naar registeren.php" />
@@ -292,6 +358,10 @@
     <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1606220687502">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
+<<<<<<< HEAD
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605263856777" />
+>>>>>>> main
+=======
     <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
     <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1606220687502" />
     <state x="783" y="470" key="NewPhpFileDialog" timestamp="1606220603007">
@@ -302,5 +372,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1605301529655" />
+>>>>>>> main
   </component>
 </project>

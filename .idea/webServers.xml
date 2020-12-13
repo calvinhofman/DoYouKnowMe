@@ -2,18 +2,20 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0a25cf3c-4516-4201-8523-1d323a3aa0a9" name="ftp85219" url="http://85379.ict-lab.nl">
-        <fileTransfer rootFolder="/httpdocs" host="web02.ict-lab.nl" port="21">
+      <webServer id="0a25cf3c-4516-4201-8523-1d323a3aa0a9" name="ftp85219 (project level)" url="http://85379.ict-lab.nl">
+        <fileTransfer host="web02.ict-lab.nl" port="21" rootFolder="/httpdocs">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="6de9f42e-2ebe-4e91-8cfe-bef960a0aa66" name="Beroeps" url="http://beroeps6.ict-lab.nl">
-        <fileTransfer rootFolder="/httpdocs" host="web02.ict-lab.nl" port="21">
+        <fileTransfer host="web02.ict-lab.nl" port="21" rootFolder="/httpdocs">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
+          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>
