@@ -1,6 +1,9 @@
 <?php
 require 'config.php';
 session_start();
+$username = $_POST['username'];
+
+$_SESSION['username'] = $username;
 
 //Maak de query
 $query = "SELECT * FROM fabels_feiten";

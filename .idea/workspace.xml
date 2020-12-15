@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb648e2-0ae3-49f3-adc1-eb8dbef3fe6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Vrienden.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Vrienden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/inlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/inlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="remoteDeploymentFS://&lt;0a25cf3c-4516-4201-8523-1d323a3aa0a9&gt;/MPHP6/Opdracht3/opdracht3.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1kEA6NLzQUxpBo6VYiNOcRuiznu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -83,9 +84,21 @@
 >>>>>>> main
 =======
       <workItem from="1605556892212" duration="4041000" />
+<<<<<<< Updated upstream
       <workItem from="1605618653467" duration="309000" />
       <workItem from="1606220580315" duration="3976000" />
 >>>>>>> main
+=======
+      <workItem from="1605618653467" duration="536000" />
+      <workItem from="1605861641674" duration="96000" />
+      <workItem from="1605862277596" duration="782000" />
+      <workItem from="1605907754797" duration="273000" />
+      <workItem from="1605908321543" duration="171000" />
+      <workItem from="1606469776647" duration="1992000" />
+      <workItem from="1606724741635" duration="354000" />
+      <workItem from="1606725927447" duration="1063000" />
+      <workItem from="1607886120485" duration="238000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Dikke calbo">
       <created>1605255257829</created>
@@ -312,6 +325,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605561335744</updated>
     </task>
+<<<<<<< Updated upstream
     <task id="LOCAL-00030" summary="Vrienden.php aangemaakt">
       <created>1606220692937</created>
       <option name="number" value="00030" />
@@ -321,6 +335,9 @@
     </task>
     <option name="localTasksCounter" value="31" />
 >>>>>>> main
+=======
+    <option name="localTasksCounter" value="30" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,15 +364,14 @@
     <MESSAGE value="Navbar.php aangemaakt zet het op elke pagina met een require" />
     <MESSAGE value="Index.php leeg gemaakt en veranderd naar registeren.php" />
     <MESSAGE value="Index.php aangepakt en gemaakt met Bootstrap moet er nog aan verder." />
-    <MESSAGE value="Vrienden.php aangemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vrienden.php aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index.php aangepakt en gemaakt met Bootstrap moet er nog aan verder." />
   </component>
   <component name="WindowStateProjectService">
     <state x="560" y="205" key="#Deployment" timestamp="1605618823822">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="560" y="205" key="#Deployment/0.0.1920.1080@0.0.1920.1080" timestamp="1605618823822" />
-    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1606220687502">
+    <state x="432" y="115" key="CommitChangelistDialog2" timestamp="1605561331970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
 <<<<<<< HEAD
@@ -363,11 +379,11 @@
 >>>>>>> main
 =======
     <state x="324" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605296870717" />
-    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1606220687502" />
-    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1606220603007">
+    <state x="432" y="115" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605561331970" />
+    <state x="783" y="470" key="NewPhpFileDialog" timestamp="1605556983481">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606220603007" />
+    <state x="783" y="470" key="NewPhpFileDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605556983481" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1605301529655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

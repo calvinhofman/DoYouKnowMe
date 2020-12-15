@@ -60,18 +60,14 @@ require '../config.php';
                     <div class="form-group">
                         <label class="sr-only">Captcha</label>
                             <div class="captcha_wrapper ">
-                            <div class="g-recaptcha" data-sitekey="6Le8JeIZAAAAAE6GR7hL5vNxz2vXYx2pqR41Amo9"></div>
+                            <div class="g-recaptcha" data-sitekey="6LeU6QUaAAAAALLqc9xR8xGdZ5YEAZCyvpJ4eDpZ"></div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="sr-only">Account maken</label>
                        <a href="home.php"><button class="form-control btn btn-primary button"  id="">Account maken</button></a>
                     </div>
-                    <div class="form-group">
-                        <label class="sr-only">Password vergeten?</label>
 
-                        <a href="inlog_vergeten.php"><button class="form-control btn btn-primary">Password vergeten?</button></a>
-                    </div>
                     <div class="form-group justify-content-center">
                         <label class="sr-only">Submit</label>
                         <input type="submit" name="submit" id="submit" class="form-control btn btn-primary" value="Login">
@@ -93,7 +89,7 @@ require '../config.php';
 
                             $url = 'https://www.google.com/recaptcha/api/siteverify';
                             $data = array(
-                                'secret' => '6Le8JeIZAAAAAAYNkaE5qdnbIMHPu6DsVHGUWNEv',
+                                'secret' => '6LeU6QUaAAAAALCGIL6304PfznQdL3aW-k42HHZx',
                                 'response' => $_POST["g-recaptcha-response"]
                             );
 
@@ -110,24 +106,23 @@ require '../config.php';
 //                            EInde van Captcha
 
 
-                            $query = "SELECT * FROM profiles WHERE Gebruikersnaam = '$username' AND password = '$password'";
+                            $query = "SELECT * FROM profiles WHERE username = '$username' AND password = '$password'";
 
                             $sqli = mysqli_query($mysqli, $query);
 
-//                            $loggedin = mysqli_fetch_array($sqli);
+                            $loggedin = mysqli_fetch_array($sqli);
 
 
-                            if(mysqli_num_rows($sqli) > 0){
-//                            if(mysqli_num_rows($sqli) > 0 && $captcha_success->success==true)
+                            if(mysqli_num_rows($sqli) > 0 && $captcha_success->success==true){
 
 
                                 $user = mysqli_fetch_array($sqli);
 
-                                $_SESSION['Gebruikersnaam'] = $user['Gebruikersnaam'];
+                                $_SESSION['username'] = $user['username'];
                                 $_SESSION['ID_Profile'] = $user['ID_Profile'];
 
 
-                                header("Location:http://192.168.64.2/DoYouKnowMe/Pages/Vrienden.php");
+                                header("Location:https://beroeps6.ict-lab.nl/Pages/home.php");
                             } else if($captcha_success->success==false){
 
                                 echo "<h4 class='text-center'>Vul de controle in!</h4>";
