@@ -28,43 +28,24 @@ require '../config.php';
 <?php
 $result = mysqli_query($mysqli, "SELECT * FROM fabelsenfeiten");
 
+$fabel = mysqli_query($mysqli, "SELECT stem_fabel FROM fabelsenfeiten");
+echo "<tabel>";
 //maak loop voor activiteiten
     while ($row = mysqli_fetch_array($result)){
         
-        $fabel = mysqli_query($mysqli, "SELECT stem_fabel FROM fabelsenfeiten");
         
-        //laat info zien in een div
-        echo "<div>";
-            echo "<div class='fabel_feit'>";
-            echo $row['vraag'] . "<br>";
-            echo $row['datum'] . "<br>";
-            echo $row['stem_feit'] . "<br>";
-            echo $row['stem_fabel'] . "<br>";
-            echo "</div>";
-            
+        
+        //laat info uit de database zien in een div
+        
+            echo "<tr>";
+            echo "<td>" . $row['vraag'] . "</td>";
+            echo "<td>" . $row['datum'] . "</td>";
+            echo "<td>" . $row['stem_feit'] . "</td>";
+            echo "<td>" . $row['stem_fabel'] . "</td>";
 
             
-            //add feit
-            function feit($ID_vraag) {
-                $feit = mysqli_query($mysqli, "SELECT stem_feit FROM fabelsenfeiten WHERE ID_vraag = " . $ID_vraag);
-                $feit ++;
-                $query = "UPDATE `fabelsenfeiten` SET `stem_feit` = ' . $feit . ' WHERE `fabelsenfeiten`.`ID_vraag` = ". $ID_vraag;
-                mysqli_query($mysqli, $query);
-                echo "U denkt dat dit een feit is";
-                var_dump($feit); 
-            } 
-            //add fabel
-            function fabel() { 
-                // mysqli_query($mysqli, "SELECT * FROM fabelsenfeiten");
-                echo "U denkt dat dit een fabel is"; 
-            } 
-            if(array_key_exists('feit', $_POST)) { 
-                feit($row['ID_vraag']); 
-            } 
-            else if(array_key_exists('fabel', $_POST)) { 
-                fabel(); 
-            } 
             
+            echo "</tr>";
 
             //knoppen voor fiet of fabel
             echo   "<form method='post'>
@@ -75,6 +56,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM fabelsenfeiten");
             
         echo "</div>";
     }
+echo "</tabel>";
 
 ?>
 </body>

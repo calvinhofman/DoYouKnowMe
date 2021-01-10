@@ -60,14 +60,13 @@ require '../config.php';
                     <div class="form-group">
                         <label class="sr-only">Captcha</label>
                             <div class="captcha_wrapper ">
-                            <div class="g-recaptcha" data-sitekey="6LeU6QUaAAAAALLqc9xR8xGdZ5YEAZCyvpJ4eDpZ"></div>
+                            <div class="g-recaptcha" data-sitekey="6LeMUwUaAAAAALFgrJAXdA3Occ5yq24UrDf9-cmt"></div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="sr-only">Account maken</label>
                        <a href="home.php"><button class="form-control btn btn-primary button"  id="">Account maken</button></a>
                     </div>
-
                     <div class="form-group justify-content-center">
                         <label class="sr-only">Submit</label>
                         <input type="submit" name="submit" id="submit" class="form-control btn btn-primary" value="Login">
@@ -89,7 +88,7 @@ require '../config.php';
 
                             $url = 'https://www.google.com/recaptcha/api/siteverify';
                             $data = array(
-                                'secret' => '6LeU6QUaAAAAALCGIL6304PfznQdL3aW-k42HHZx',
+                                'secret' => '6LeMUwUaAAAAAMx5NMJZkrKxZWKkApIrHh9ks0aw',
                                 'response' => $_POST["g-recaptcha-response"]
                             );
 
@@ -122,13 +121,14 @@ require '../config.php';
                                 $_SESSION['ID_Profile'] = $user['ID_Profile'];
 
 
-                                header("Location:https://beroeps6.ict-lab.nl/Pages/home.php");
+                                header("Location:https://85113.ict-lab.nl/beroeps/DoYouKnowMe/Pages/home.php");
                             } else if($captcha_success->success==false){
 
                                 echo "<h4 class='text-center'>Vul de controle in!</h4>";
                             }
                             else{
                                 echo "<h4 class='text-center'>Naam en/of password zijn verkeerd!</h4>";
+
 
                             }
                         }
